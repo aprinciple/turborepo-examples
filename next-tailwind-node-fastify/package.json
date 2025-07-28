@@ -1,5 +1,5 @@
 {
-  "name": "next-ts-test",
+  "name": "next-tailwind-node-fastify",
   "private": true,
   "scripts": {
     "build": "turbo run build",
