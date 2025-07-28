@@ -1,7 +1,6 @@
 {
   "name": "@repo/backend",
   "private": true,
-  "module": "index.ts",
   "type": "module",
   "scripts": {
     "build": "tsc",
