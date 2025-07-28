@@ -56,6 +56,8 @@ Available commands:
 bun run sync:check    # List all dependencies and their versions
 bun run sync:lint     # Check for version inconsistencies and formatting issues  
 bun run sync:fix      # Automatically fix dependency version mismatches
+bun run sync:format    # Format and sort package.json files
+bun run sync:all       # Fix versions + format files (recommended)
 ```
 
 ### Shared Code Pattern
