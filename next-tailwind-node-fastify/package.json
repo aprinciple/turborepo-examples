@@ -1,17 +1,5 @@
 {
   "name": "next-ts-test",
-  "private": true,
-  "scripts": {
-    "build": "turbo run build",
-    "dev": "turbo run dev",
-    "lint": "biome check .",
-    "lint:fix": "biome check --apply-unsafe .",
-    "format": "biome format --write .",
-    "check-types": "turbo run check-types",
-    "sync:check": "bunx syncpack list",
-    "sync:lint": "bunx syncpack lint",
-    "sync:fix": "bunx syncpack fix-mismatches"
-  },
   "devDependencies": {
     "@biomejs/biome": "^2.1.2",
     "turbo": "^2.5.5"
@@ -20,6 +8,20 @@
     "node": ">=22"
   },
   "packageManager": "bun@1.2.19",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "check-types": "turbo run check-types",
+    "dev": "turbo run dev",
+    "format": "biome format --write .",
+    "lint": "biome check .",
+    "lint:fix": "biome check --apply-unsafe .",
+    "sync:all": "bun run sync:fix && bun run sync:format",
+    "sync:check": "bunx syncpack list",
+    "sync:fix": "bunx syncpack fix-mismatches",
+    "sync:format": "bunx syncpack format",
+    "sync:lint": "bunx syncpack lint"
+  },
   "workspaces": [
     "apps/*",
     "packages/*"
