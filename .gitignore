@@ -1,0 +1,24 @@
+# Node
+node_modules/
+dist/
+.env
+.env.local
+*.log
+
+# TurboRepo
+turbo/
+.cache/
+
+# Bun
+.bun/
+
+# Next.js
+.next/
+out/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
