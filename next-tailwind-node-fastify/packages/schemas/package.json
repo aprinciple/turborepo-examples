@@ -1,13 +1,7 @@
 {
   "name": "@repo/schemas",
   "version": "1.0.0",
-  "dependencies": {
-    "valibot": "^1.1.0"
-  },
-  "devDependencies": {
-    "tsup": "^8.5.0",
-    "typescript": "^5.8.3"
-  },
+  "private": true,
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -15,9 +9,15 @@
       "require": "./dist/index.js"
     }
   },
-  "private": true,
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "dev": "tsup src/index.ts --format cjs,esm --dts --watch"
+  },
+  "dependencies": {
+    "valibot": "^1.1.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
   }
 }

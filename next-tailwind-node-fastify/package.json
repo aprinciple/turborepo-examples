@@ -27,14 +27,17 @@
       "contributors",
       "dependencies",
       "devDependencies",
-      "keywords",
       "peerDependencies",
+      "keywords",
       "resolutions"
     ],
     "sortFirst": [
       "name",
       "version",
       "private",
+      "module",
+      "type",
+      "exports",
       "scripts"
     ]
   },
