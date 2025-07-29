@@ -5,14 +5,14 @@ A curated collection of production-ready Turborepo monorepo setups with modern t
 ## 📦 Available Examples
 
 ### Full-Stack Applications
-- **[`next-tailwind-node-fastify`](./next-tailwind-node-fastify/)** - Next.js + Tailwind + Node + Fastify + Prisma + TypeScript + Valibot
+- **[`next-tailwind-fastify-prisma`](./next-tailwind-fastify-prisma/)** - Next.js + Tailwind + Node + Fastify + Prisma + TypeScript + Valibot
   - Frontend: Next.js with Tailwind CSS
   - Backend: Fastify API server with Prisma
   - Tools: Bun, Biome, Syncpack, tsup
   - Shared: TypeScript configs, validation schemas
 
 ### Coming Soon
-- **`react-tailwind-node-fastify`** - React + Tailwind + Node + Fastify + Prisma + TypeScript + Valibot
+- **`react-tailwind-fastify-prisma`** - React + Tailwind + Node + Fastify + Prisma + TypeScript + Valibot
 
 ## 🎯 What You'll Find Here
 - ✅ **Production-ready** configurations

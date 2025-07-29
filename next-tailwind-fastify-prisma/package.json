@@ -1,5 +1,5 @@
 {
-  "name": "next-tailwind-node-fastify", 
+  "name": "next-tailwind-fastify-prisma", 
   "version": "0.0.0",
   "private": true,
   "scripts": {
