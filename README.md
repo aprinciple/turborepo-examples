@@ -5,18 +5,37 @@ A curated collection of production-ready Turborepo monorepo setups with modern t
 ## 🚀 Fast start
 
 ### Next.js + Tailwind + Fastify + Prisma
+
+## Install
 ```bash
 npx degit github:aprinciple/turborepo-examples/next-tailwind-fastify-prisma my-project
 cd my-project
 npm install
 ```
-
 or bun, pnpm, yarn, etc.
 
 ```bash
 bunx degit github:aprinciple/turborepo-examples/next-tailwind-fastify-prisma my-project
 cd my-project
 bun install
+```
+
+## Fast install
+*Replace `my-project` with your desired project name*
+
+**npm:**
+```bash
+npx degit github:aprinciple/turborepo-examples/next-tailwind-fastify-prisma my-project && cd my-project && npm install
+```
+
+**bun:**
+```bash
+bunx degit github:aprinciple/turborepo-examples/next-tailwind-fastify-prisma my-project && cd my-project && bun install
+```
+
+**pnpm:**
+```bash
+npx degit github:aprinciple/turborepo-examples/next-tailwind-fastify-prisma my-project && cd my-project && pnpm install
 ```
 
 ## 📦 Available Examples

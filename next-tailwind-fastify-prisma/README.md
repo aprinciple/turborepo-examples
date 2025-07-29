@@ -20,6 +20,24 @@ cd my-project
 bun install
 ```
 
+## Fast install
+*Replace `my-project` with your desired project name*
+
+**npm:**
+```bash
+npx degit github:aprinciple/turborepo-examples/next-tailwind-fastify-prisma my-project && cd my-project && npm install
+```
+
+**bun:**
+```bash
+bunx degit github:aprinciple/turborepo-examples/next-tailwind-fastify-prisma my-project && cd my-project && bun install
+```
+
+**pnpm:**
+```bash
+npx degit github:aprinciple/turborepo-examples/next-tailwind-fastify-prisma my-project && cd my-project && pnpm install
+```
+
 ### Applications
 
 - `apps/web`: A [Next.js](https://nextjs.org/) application for the user interface.
