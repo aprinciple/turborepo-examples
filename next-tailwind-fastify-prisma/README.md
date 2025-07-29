@@ -6,6 +6,20 @@ This is a custom monorepo setup powered by Turborepo and `bun`. It includes a Ne
 
 This Turborepo includes the following packages and applications:
 
+## Install
+```bash
+npx degit github:aprinciple/turborepo-examples/next-tailwind-fastify-prisma my-project
+cd my-project
+npm install
+```
+or bun, pnpm, yarn, etc.
+
+```bash
+bunx degit github:aprinciple/turborepo-examples/next-tailwind-fastify-prisma my-project
+cd my-project
+bun install
+```
+
 ### Applications
 
 - `apps/web`: A [Next.js](https://nextjs.org/) application for the user interface.
